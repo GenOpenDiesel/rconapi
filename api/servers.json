@@ -4,7 +4,7 @@
       "token": "CHANGE_ME_bfsmc_network_token",
       "servers": [
         "lobby",
-        "skyblock-1",
+        "ekonomia",
         "skyblock-2",
         "skyblock-3",
         "survival-1",
@@ -27,3 +27,4 @@
     }
   }
 }
+
