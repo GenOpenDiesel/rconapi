@@ -1,0 +1,29 @@
+{
+  "networks": {
+    "bfsmc": {
+      "token": "CHANGE_ME_bfsmc_network_token",
+      "servers": [
+        "lobby",
+        "skyblock-1",
+        "skyblock-2",
+        "skyblock-3",
+        "survival-1",
+        "survival-2",
+        "survival-3"
+      ]
+    },
+    "kociakmc": {
+      "token": "CHANGE_ME_kociakmc_network_token",
+      "servers": [
+        "creative-1",
+        "minigames-1",
+        "minigames-2",
+        "prison-1",
+        "prison-2",
+        "factions-1",
+        "bedwars-1",
+        "hub-1"
+      ]
+    }
+  }
+}

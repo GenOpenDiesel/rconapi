@@ -1,0 +1,16 @@
+name: PluginRCON
+version: '1.0.0'
+main: pl.pluginrcon.PluginRcon
+api-version: '1.20'
+description: Remote command execution via HTTP API with push/pull support
+author: PluginRCON
+commands:
+  pluginrcon:
+    description: PluginRCON administration commands
+    usage: /pluginrcon <reload|status|pull|queue>
+    permission: pluginrcon.admin
+    aliases: [prcon]
+permissions:
+  pluginrcon.admin:
+    description: Access to PluginRCON admin commands
+    default: op

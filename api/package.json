@@ -1,0 +1,22 @@
+{
+  "name": "pluginrcon-api",
+  "version": "1.0.0",
+  "description": "PluginRCON - Remote command execution API for Minecraft servers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.0.0",
+    "lru-cache": "^11.2.6",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "uuid": "^11.0.5"
+  }
+}
